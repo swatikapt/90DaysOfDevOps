@@ -1,0 +1,35 @@
+Linux Commands
+
+cd -> change directory
+cd ~ -> to jump to home
+whoami -> to check current user
+pwd -> to check present working directory
+mkdir -> to make directory
+touch -> to create a file
+ls -> to list down all files and folders
+cat -> to read the contents of a file
+cp -> to copy file content
+echo -> to displa on screen
+man -> a directory to check usage of all cmds
+mv -> to move a file from source to destination
+rmdir -> to remove a direcory which is empty
+rm -> deletes a file
+"rm - r" -> to remove non empty directory
+ctrl+c -> to come out of new line
+vim filename -> to enter script in a file (:qa-> to save, :wq!->exit without saving)
+sudo -> sudo (short for SuperUser DO) is a command in Linux that allows you to run programs or commands with the security privileges of another user, typically the root user (the superuser or administrator). It is used to perform tasks that require elevated permissions, such as installing software, modifying system files, or managing users.
+apt -> apt (Advanced Package Tool) is Ubuntu’s package management command-line tool. It is used to install, update, upgrade, and remove software packages in Debian-based Linux distributions like Ubuntu.
+sudo apt-get install nginx -> to install nginx server
+systemctl status nginx -> to get status of service
+sudo systemctl stop nginx -> to stop service
+
+
+***** TO CREATE AN APPLICATION AND HOST IT ON NGINX SERVER*****
+cd var
+cd www
+cd html
+then create a file (sudo vim file.html)
+save the file and then in new tab search http://public ip address:80/filename(if u have mutiple)
+*****************************************************************************************************
+
+
